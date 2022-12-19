@@ -1,0 +1,909 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+html,
+body {
+  max-width: 100%;
+  overflow-x: hidden;
+}
+
+:root {
+  /* Colors */
+  --WTXT: #fff;
+  --BACKGRAD: linear-gradient(to left, RGB(136 241 255), rgb(118, 110, 255));
+}
+
+.main-head-name {
+  color: var(--WTXT);
+  font-weight: bolder;
+  font-size: 20px;
+  margin-right: 40%;
+  white-space: nowrap;
+  margin-left: 10%;
+  background-image: linear-gradient();
+}
+
+.navbar-one,
+.navoneli,
+.navoneul {
+  display: flex;
+}
+
+.navoneli {
+  margin-left: 10%;
+  font-size: 12px;
+  color: var(--WTXT);
+}
+
+.hamburger {
+  display: none;
+  cursor: pointer;
+}
+
+.bar {
+  display: block;
+  width: 25px;
+  height: 3px;
+  margin: 5px auto;
+  transition: all 0.3s ease-in-out;
+  -webkit-transition: all 0.3s ease-in-out;
+  background-color: white;
+}
+
+.navbar-one {
+  padding: 3% 0%;
+  width: 100%;
+}
+
+.headcolor {
+  background-image: var(--BACKGRAD);
+  width: 100vw;
+  height: 800px;
+}
+
+.mainprofile-box {
+  display: flex;
+  width: 80%;
+  padding: 2rem;
+  background-color: rgb(255, 255, 255);
+  border-radius: 3%/4%;
+  position: absolute;
+  left: 50%;
+  transform: translate(-50%, 0);
+  top: 30%;
+  box-shadow: 00px 0px 10px 10px rgba(219, 219, 219, 0.3);
+}
+
+.ppic {
+  margin-right: 15%;
+  border-radius: 2%;
+}
+
+.mp-writeup {
+  width: 50%;
+  margin-top: 6%;
+}
+
+.heb {
+  white-space: nowrap;
+}
+
+.myname {
+  font-weight: bolder;
+  font-size: 40px;
+  margin-top: 4%;
+}
+
+.fed {
+  font-weight: bold;
+  margin-top: 4%;
+  margin-bottom: 5%;
+}
+
+.dob {
+  margin-top: 6%;
+}
+
+.phno {
+  margin-top: 3%;
+}
+
+.mail {
+  margin-top: 3%;
+}
+
+.addr {
+  margin-top: 3%;
+}
+
+.awes {
+  margin-top: 8%;
+  display: flex;
+}
+
+.fed {
+  white-space: nowrap;
+}
+
+.fedp {
+  margin: 10px 0;
+  width: 250px;
+}
+
+.aweclass {
+  background-color: rgb(192, 190, 190);
+  color: white;
+  margin-left: 3%;
+  padding: 10px 20px;
+  border-radius: 10%/15%;
+}
+
+.aweclass:hover {
+  background-image: var(--BACKGRAD);
+}
+
+.secondpart {
+  display: flex;
+  padding: 20rem 10% 0 10%;
+  margin-top: 10%;
+}
+
+.pabm {
+  width: 80%;
+  line-height: 1.5rem;
+  color: grey;
+  margin-top: 5%;
+}
+
+.loadout1 {
+  width: 120%;
+  height: 20px;
+  background-color: rgb(255, 255, 255);
+  padding: 5px 5px 15px 5px;
+  position: relative;
+  border-radius: 2%/50%;
+  border: 1px solid grey;
+}
+
+.sp-secondhalf {
+  width: 43%;
+}
+
+.sp-firsthalf {
+  width: 50%;
+}
+
+.loadout2 {
+  width: 100%;
+  height: 10px;
+  background-color: rgb(192, 188, 188);
+  position: relative;
+  border-radius: 1%/50%;
+}
+
+.sploader {
+  margin: 5% 0 5% 0;
+}
+
+.loadout3a {
+  width: 95%;
+  height: 100%;
+  position: relative;
+  background-image: var(--BACKGRAD);
+  border-radius: 1%/50%;
+}
+
+.loadout3b {
+  width: 80%;
+  height: 100%;
+  position: relative;
+  background-image: var(--BACKGRAD);
+  border-radius: 1%/50%;
+}
+
+.loadout3c {
+  width: 60%;
+  height: 100%;
+  position: relative;
+  background-image: var(--BACKGRAD);
+  border-radius: 1%/50%;
+}
+
+.loadout3d {
+  width: 70%;
+  height: 100%;
+  position: relative;
+  background-image: var(--BACKGRAD);
+  border-radius: 1%/50%;
+}
+
+.loadout3e {
+  width: 30%;
+  height: 100%;
+  position: relative;
+  background-image: var(--BACKGRAD);
+  border-radius: 1%/50%;
+}
+
+.sp-achcontain {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+
+.total-donat {
+  width: 25%;
+  height: 7rem;
+  border: grey solid 1px;
+  border-radius: 5%;
+}
+
+.total-proj {
+  width: 25%;
+  height: 7rem;
+  border: grey solid 1px;
+  border-radius: 5%;
+}
+
+.total-volns {
+  width: 25%;
+  height: 7rem;
+  border: grey solid 1px;
+  border-radius: 5%;
+}
+
+.total-donat,
+.total-proj,
+.total-volns {
+  text-align: center;
+  padding-top: 5%;
+  border: 1px rgb(201, 199, 199) solid;
+}
+
+.thirdpart {
+  background-image: var(--BACKGRAD);
+  margin-top: 10%;
+  padding-top: 10%;
+  padding-bottom: 10%;
+}
+
+.tp1 {
+  display: flex;
+  gap: 2rem;
+  margin: 0 auto 0 auto;
+  width: 30%;
+}
+
+.myedyr {
+  height: 4rem;
+  padding: 1.5rem 4rem 1.5rem 4rem;
+  background-color: rgb(139, 182, 255);
+  text-align: center;
+  border-radius: 3%/10%;
+  cursor: pointer;
+}
+
+.myed {
+  height: 4rem;
+  padding: 1.5rem 2rem 1.5rem 2rem;
+  background-color: #fff;
+  text-align: center;
+  border-radius: 3%/10%;
+  cursor: pointer;
+  white-space: nowrap;
+}
+
+.lithree {
+  display: flex;
+  list-style: none;
+  gap: 50px;
+  margin-bottom: 10%;
+}
+
+.circledot {
+  width: 15px;
+  height: 15px;
+  background-color: rgb(153, 191, 255);
+  border-radius: 50%;
+  padding: 3.75px;
+}
+
+.whitedot {
+  position: relative;
+  width: 7.5px;
+  height: 7.5px;
+  background-color: white;
+  border-radius: 50%;
+}
+
+.liconta {
+  width: 60%;
+  margin: 8rem 20% 0 30%;
+  color: white;
+}
+
+.limove {
+  white-space: nowrap;
+}
+
+.offcli {
+  text-align: center;
+}
+
+.fourthpart {
+  background-color: rgb(243, 243, 243);
+  padding: 5% 0 0 0;
+}
+
+.fptext {
+  text-align: center;
+  width: 50%;
+  margin: 0 auto 0 auto;
+  color: gray;
+}
+
+.offerings {
+  background-color: rgb(243, 243, 243);
+  height: 450px;
+  margin-top: 5%;
+  display: flex;
+  gap: 40px;
+  justify-content: center;
+  padding-top: 20px;
+}
+
+.appbuild {
+  height: 19rem;
+  width: 25%;
+  background-color: white;
+  border-radius: 3%;
+  padding: 30px 20px;
+}
+
+.fifthpart {
+  background-color: rgb(240, 240, 240);
+  padding-top: 100px;
+  padding-bottom: 100px;
+}
+
+.webbuild {
+  height: 19rem;
+  width: 25%;
+  background-color: white;
+  border-radius: 3%;
+  padding: 30px 20px;
+}
+
+.appdesign {
+  height: 19rem;
+  width: 25%;
+  background-color: white;
+  border-radius: 3%;
+  padding: 30px 20px;
+}
+
+.appbuild:hover,
+.webbuild:hover,
+.appdesign:hover {
+  box-shadow: 0px 0px 20px 5px rgb(200, 198, 198);
+}
+
+.mycomp {
+  text-align: center;
+  margin-top: 3rem;
+}
+
+.whoare {
+  text-align: center;
+  margin-top: 20px;
+  color: grey;
+}
+
+.myworks {
+  display: grid;
+  grid-template-columns: auto auto auto;
+  justify-content: center;
+  max-lines: 10%;
+  margin-top: 8rem;
+  padding: 0 5% 0 10%;
+}
+.imges {
+  border-radius: 5%/10%;
+  width: 80%;
+}
+
+.sixthpart {
+  padding-top: 5rem;
+}
+
+.test {
+  text-align: center;
+}
+
+.testimonyme {
+  text-align: center;
+  width: 50%;
+  margin: 0 25% 0 25%;
+  color: gray;
+}
+
+.futcaro {
+  margin-top: 3rem;
+  height: 300px;
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+}
+
+.caro1 {
+  height: 210px;
+  width: 20%;
+  min-width: 210px;
+  background-color: rgb(231, 225, 225);
+  border-radius: 5%/6%;
+  padding: 30px;
+  position: relative;
+}
+
+.caro2 {
+  height: 210px;
+  width: 20%;
+  background-color: rgb(231, 225, 225);
+  border-radius: 5%/6%;
+  padding: 30px;
+  min-width: 210px;
+  position: relative;
+}
+
+.caro3 {
+  height: 210px;
+  width: 20%;
+  background-color: rgb(231, 225, 225);
+  border-radius: 5%/6%;
+  padding: 30px;
+  min-width: 210px;
+  position: relative;
+}
+
+.comment {
+  margin-bottom: 12px;
+  font-style: italic;
+  position: relative;
+}
+
+.star {
+  margin-top: 5px;
+  color: rgb(245, 211, 17);
+  position: relative;
+}
+
+.namecomm {
+  position: relative;
+}
+
+footer {
+  display: flex;
+  height: 300px;
+  background-color: rgb(9, 9, 9);
+  color: white;
+  padding: 50px 50px;
+  justify-content: center;
+  gap: 10rem;
+}
+
+.footp1 {
+  width: 25rem;
+  margin-top: 3rem;
+}
+
+.footn1 {
+  margin-right: 20%;
+}
+
+.footp2 {
+  margin-top: 5rem;
+}
+
+.footp3 {
+  margin-top: 3rem;
+  margin-bottom: 2rem;
+}
+
+.footbutt {
+  height: 2.1rem;
+  width: 2.5rem;
+  cursor: pointer;
+  background-image: var(--BACKGRAD);
+}
+
+.footinput {
+  width: 250px;
+  height: 2rem;
+  font-size: 12pt;
+  background-color: transparent;
+  border: 1px solid rgb(30, 35, 59);
+  color: white;
+  padding-left: 10px;
+}
+
+.formfoot {
+  display: flex;
+  justify-content: center;
+}
+
+input:focus::placeholder {
+  color: transparent;
+}
+
+.footinput:focus {
+  border: rgb(30, 35, 59) 1px solid;
+  outline: none !important;
+}
+
+.friends {
+  margin-top: 20px;
+  font-size: 13px;
+  color: grey;
+}
+
+.fontawe2 {
+  display: flex;
+  gap: 20px;
+  margin-top: 10px;
+}
+
+.webnames {
+  text-align: center;
+  font-weight: bolder;
+  margin-top: 10px;
+}
+
+.devpics {
+  margin-bottom: 40px;
+}
+
+#webdev {
+  margin-bottom: 60px;
+}
+
+.nav-active {
+  background-color: rgb(0, 0, 0);
+  position: fixed;
+  transition: 0.3s ease-in;
+  z-index: 100;
+}
+
+/* Animation Section */
+@keyframes loadingone {
+  0% {
+    width: 0%;
+  }
+
+  100% {
+    width: 95%;
+  }
+}
+
+@keyframes loadingtwo {
+  0% {
+    width: 0%;
+  }
+
+  100% {
+    width: 80%;
+  }
+}
+@keyframes loadingfour {
+  0% {
+    width: 0%;
+  }
+
+  100% {
+    width: 60%;
+  }
+}
+
+@keyframes loadingfive {
+  0% {
+    width: 0%;
+  }
+
+  100% {
+    width: 70%;
+  }
+}
+
+@keyframes loadingsix {
+  0% {
+    width: 0%;
+  }
+
+  100% {
+    width: 30%;
+  }
+}
+
+/* Media section */
+
+@media only screen and (max-width: 1100px) {
+  html,
+  body {
+    max-width: 100%;
+    overflow-x: hidden;
+  }
+
+  .hamburger {
+    display: block;
+    margin-left: 25%;
+  }
+
+  .hamburger.active .bar:nth-child(2) {
+    opacity: 0;
+  }
+
+  .hamburger.active .bar:nth-child(1) {
+    transform: translateY(8px) rotate(45deg);
+  }
+
+  .hamburger.active .bar:nth-child(3) {
+    transform: translateY(-8px) rotate(-45deg);
+  }
+
+  nav {
+    background-color: rgb(0, 0, 0);
+    position: fixed;
+    transition: 0.3s ease-in;
+    z-index: 100;
+  }
+
+  .navoneul {
+    margin-top: 2.1rem;
+    right: 100%;
+    position: fixed;
+    background-color: black;
+    color: white;
+    width: 100%;
+    display: block;
+    padding: 30px 0% 10px 0;
+    transition: 0.3s;
+  }
+
+  .navoneli {
+    border-bottom: rgb(66, 64, 64) 2px solid;
+    margin-top: 20px;
+  }
+
+  .navoneul.active {
+    right: 0%;
+  }
+
+  .ppic {
+    width: 100%;
+  }
+
+  .mainprofile-box {
+    display: block;
+    border-radius: 3%/2%;
+  }
+
+  footer {
+    flex-wrap: wrap;
+    justify-content: space-between;
+    height: 600px;
+  }
+
+  .caro3,
+  .caro1,
+  .caro2 {
+    height: 210px;
+  }
+
+  .secondpart {
+    display: block;
+    padding-top: 700px;
+  }
+
+  .sp-firsthalf {
+    display: block;
+  }
+
+  .sp-secondhalf {
+    margin-top: 10%;
+  }
+
+  .sp-achcontain {
+    margin-top: 10%;
+  }
+
+  .sp-secondhalf {
+    width: 70%;
+  }
+}
+
+@media only screen and (max-width: 755px) {
+  .offerings {
+    display: block;
+    height: 500px;
+    width: 300%;
+    margin-left: 15%;
+  }
+  .fourthpart {
+    height: 1200px;
+  }
+
+  .appbuild,
+  .webbuild,
+  .appdesign {
+    margin-top: 20px;
+    padding: 15px;
+  }
+
+  .myworks {
+    grid-template-columns: auto;
+    margin-left: 10%;
+  }
+
+  .site1,
+  .site2,
+  .site3,
+  .site4,
+  .site5,
+  .site6 {
+    margin-top: 10px;
+  }
+
+  .futcaro {
+    display: block;
+    position: relative;
+    width: 50%;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .caro1,
+  .caro2,
+  .caro3 {
+    width: 100%;
+    margin-top: 30px;
+  }
+
+  footer {
+    margin-top: 100%;
+    height: 600px;
+    padding: 30px;
+  }
+
+  .total-donat,
+  .total-proj,
+  .total-volns {
+    min-width: 120px;
+  }
+
+  .ppic {
+    height: 600px;
+  }
+
+  .sp-firsthalf {
+    width: 100%;
+  }
+
+  .headcolor {
+    max-height: 800px;
+  }
+
+  .lithree {
+    display: block;
+  }
+
+  .limove,
+  .circledot {
+    margin-top: 10px;
+  }
+
+  .tp1 {
+    display: block;
+  }
+
+  .myedyr,
+  .myed {
+    width: 200px;
+    margin-top: 20px;
+  }
+
+  .fifthpart {
+    margin-bottom: 100px;
+  }
+
+  .follow {
+    display: none;
+  }
+}
+
+@media only screen and (max-width: 450px) {
+  .secondpart {
+    padding-top: 0px;
+  }
+
+  .thirdpart {
+    padding-right: 25%;
+  }
+
+  .fifthpart {
+    margin-bottom: 100px;
+  }
+
+  .headcolor {
+    background-color: #fff;
+    background-image: none;
+  }
+
+  .mainprofile-box {
+    top: 10%;
+    border-radius: 5%/2%;
+  }
+
+  .ppic {
+    height: 300px;
+  }
+
+  .secondpart {
+    padding-top: 300px;
+  }
+
+  .fifthpart {
+    margin-bottom: 100px;
+  }
+
+  footer {
+    padding: 50px 10px;
+  }
+
+  .footp1 {
+    width: 80%;
+  }
+
+  .hamburger {
+    margin-right: 50%;
+  }
+
+  .caro1,
+  .caro2,
+  .caro3 {
+    height: 250px;
+  }
+
+  .caro3 {
+    display: none;
+  }
+
+  .star {
+    display: none;
+  }
+
+  footer {
+    height: 100%;
+  }
+
+  .formfoot {
+    margin-top: 0;
+  }
+}
+
+@media only screen and (max-width: 380px) {
+  .futcaro {
+    margin-bottom: 400px;
+  }
+
+  .hamburger {
+    display: block;
+    margin-left: 5%;
+  }
+
+  .lithree {
+    margin-top: 50px;
+  }
+}
