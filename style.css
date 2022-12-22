@@ -435,7 +435,7 @@ body {
   margin-top: 3rem;
   height: 300px;
   display: flex;
-  justify-content: center;
+/*   justify-content: center; */
   gap: 30px;
 }
 
@@ -757,17 +757,17 @@ input:focus::placeholder {
 
   .futcaro {
     display: flex;
-    position: relative;
     width: 80%;
-    margin-left: auto;
-    margin-right: auto;
+    margin: 0px auto;
+    padding-bottom: 400px;
     overflow-x: scroll;
+
   }
 
   .caro1,
   .caro2,
   .caro3 {
-    width: 100%;
+    min-width: 200px;
     margin-top: 30px;
   }
 
