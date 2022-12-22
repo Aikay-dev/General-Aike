@@ -852,6 +852,13 @@ input:focus::placeholder {
     margin-bottom: 100px;
   }
 
+  .testimonyme {
+    text-align: center;
+    width: 70%;
+    margin: 0 auto 0 auto;
+    color: gray;
+  }
+
   footer {
     padding: 50px 10px;
   }
