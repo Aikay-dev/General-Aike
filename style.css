@@ -433,14 +433,13 @@ body {
 
 .futcaro {
   margin-top: 3rem;
-  height: 300px;
   display: flex;
-/*   justify-content: center; */
+  justify-content: center;
   gap: 30px;
+  padding-bottom: 100px;
 }
 
 .caro1 {
-  height: 210px;
   width: 20%;
   min-width: 210px;
   background-color: rgb(231, 225, 225);
@@ -450,7 +449,6 @@ body {
 }
 
 .caro2 {
-  height: 210px;
   width: 20%;
   background-color: rgb(231, 225, 225);
   border-radius: 5%/6%;
@@ -460,7 +458,6 @@ body {
 }
 
 .caro3 {
-  height: 210px;
   width: 20%;
   background-color: rgb(231, 225, 225);
   border-radius: 5%/6%;
@@ -487,12 +484,13 @@ body {
 
 footer {
   display: flex;
-  height: 300px;
+  height: 100%;
   background-color: rgb(9, 9, 9);
   color: white;
   padding: 50px 50px;
   justify-content: center;
   gap: 10rem;
+
 }
 
 .footp1 {
@@ -696,11 +694,7 @@ input:focus::placeholder {
     height: 600px;
   }
 
-  .caro3,
-  .caro1,
-  .caro2 {
-    height: 210px;
-  }
+
 
   .secondpart {
     display: block;
@@ -759,7 +753,7 @@ input:focus::placeholder {
     display: flex;
     width: 80%;
     margin: 0px auto;
-    padding-bottom: 400px;
+    padding-bottom: 100px;
     overflow-x: scroll;
 
   }
@@ -817,9 +811,6 @@ input:focus::placeholder {
     margin-bottom: 100px;
   }
 
-  .follow {
-    display: none;
-  }
 }
 
 @media only screen and (max-width: 450px) {
@@ -869,10 +860,14 @@ input:focus::placeholder {
     margin-right: 50%;
   }
 
+  .futcaro{
+    justify-content: left;
+  }
+
   .caro1,
   .caro2,
   .caro3 {
-    height: 250px;
+ min-width: 250px;
   }
 
 
