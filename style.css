@@ -101,6 +101,7 @@ body {
   font-weight: bold;
   margin-top: 4%;
   margin-bottom: 5%;
+  min-width: 250px;
 }
 
 .dob {
@@ -110,6 +111,7 @@ body {
 
 .phno {
   margin-top: 3%;
+  white-space: nowrap;
 }
 
 .mail {
@@ -127,9 +129,6 @@ body {
   display: flex;
 }
 
-.fed {
-  white-space: nowrap;
-}
 
 .fedp {
   margin: 10px 0;
