@@ -23,7 +23,6 @@ body {
   font-size: 20px;
   margin-right: 40%;
   white-space: nowrap;
-  margin-left: 10%;
   background-image: linear-gradient();
 }
 
@@ -55,8 +54,8 @@ body {
 }
 
 .navbar-one {
-  padding: 3% 0%;
-  width: 100%;
+  padding: 3% 10%;
+  width: 100vw;
 }
 
 .headcolor {
@@ -105,7 +104,8 @@ body {
 }
 
 .dob {
-  margin-top: 6%;
+  margin-top: 10%;
+  white-space: nowrap;
 }
 
 .phno {
@@ -114,10 +114,12 @@ body {
 
 .mail {
   margin-top: 3%;
+  white-space: nowrap;
 }
 
 .addr {
   margin-top: 3%;
+  white-space: nowrap;
 }
 
 .awes {
@@ -436,7 +438,8 @@ body {
   display: flex;
   justify-content: center;
   gap: 30px;
-  padding-bottom: 100px;
+  margin-bottom: 100px;
+
 }
 
 .caro1 {
@@ -445,7 +448,6 @@ body {
   background-color: rgb(231, 225, 225);
   border-radius: 5%/6%;
   padding: 30px;
-  position: relative;
 }
 
 .caro2 {
@@ -454,7 +456,6 @@ body {
   border-radius: 5%/6%;
   padding: 30px;
   min-width: 210px;
-  position: relative;
 }
 
 .caro3 {
@@ -463,7 +464,6 @@ body {
   border-radius: 5%/6%;
   padding: 30px;
   min-width: 210px;
-  position: relative;
 }
 
 .comment {
@@ -636,7 +636,7 @@ input:focus::placeholder {
 
   .hamburger {
     display: block;
-    margin-left: 25%;
+    margin-left: 0%;
   }
 
   .hamburger.active .bar:nth-child(2) {
@@ -656,6 +656,7 @@ input:focus::placeholder {
     position: fixed;
     transition: 0.3s ease-in;
     z-index: 100;
+    justify-content: space-between;
   }
 
   .navoneul {
@@ -752,8 +753,7 @@ input:focus::placeholder {
   .futcaro {
     display: flex;
     width: 80%;
-    margin: 0px auto;
-    padding-bottom: 100px;
+    margin: 0px auto 100px auto;
     overflow-x: scroll;
 
   }
@@ -814,6 +814,11 @@ input:focus::placeholder {
 }
 
 @media only screen and (max-width: 450px) {
+  .navbar-one{
+    padding-left: 5%;
+    padding-right: 5%;
+  }
+  
   .secondpart {
     padding-top: 0px;
   }
@@ -856,12 +861,9 @@ input:focus::placeholder {
     width: 80%;
   }
 
-  .hamburger {
-    margin-right: 50%;
-  }
-
   .futcaro{
     justify-content: left;
+    
   }
 
   .caro1,
@@ -882,7 +884,7 @@ input:focus::placeholder {
 
 @media only screen and (max-width: 380px) {
   .futcaro {
-    margin-bottom: 400px;
+    margin-bottom: 100px;
   }
 
   .hamburger {
