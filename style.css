@@ -277,6 +277,7 @@ body {
   gap: 2rem;
   margin: 0 auto 0 auto;
   width: 30%;
+  min-width: 200px;
 }
 
 .myedyr {
@@ -313,6 +314,10 @@ body {
   padding: 3.75px;
 }
 
+/* .schname{
+  white-space: nowrap;
+}
+ */
 .whitedot {
   position: relative;
   width: 7.5px;
@@ -822,9 +827,6 @@ input:focus::placeholder {
     padding-top: 0px;
   }
 
-  .thirdpart {
-    padding-right: 25%;
-  }
 
   .fifthpart {
     margin-bottom: 100px;
@@ -846,6 +848,13 @@ input:focus::placeholder {
 
   .secondpart {
     padding-top: 300px;
+  }
+
+  .liconta {
+    width: 80%;
+    margin: 8rem auto 0 auto;
+    color: white;
+    text-align: center;
   }
 
   .fifthpart {
