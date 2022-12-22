@@ -855,6 +855,10 @@ input:focus::placeholder {
     margin: auto;
   }
 
+  .loadout1, .loadout2, .loadout3a, .loadout3b, .loadout3c, .loadout3d, .loadout3e {
+    border-radius: 5%/40%;
+  }
+
   .secondpart {
     padding-top: 300px;
   }
