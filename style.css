@@ -638,6 +638,10 @@ input:focus::placeholder {
     overflow-x: hidden;
   }
 
+  .whoare{
+    padding: 0 20px 0 20px;
+  }
+
   .hamburger {
     display: block;
     margin-left: 0%;
@@ -696,7 +700,7 @@ input:focus::placeholder {
   footer {
     flex-wrap: wrap;
     justify-content: space-between;
-    height: 600px;
+    height: 100%;
   }
 
 
@@ -721,6 +725,7 @@ input:focus::placeholder {
   .sp-secondhalf {
     width: 70%;
   }
+
 }
 
 @media only screen and (max-width: 755px) {
@@ -732,6 +737,22 @@ input:focus::placeholder {
   }
   .fourthpart {
     height: 1200px;
+  }
+
+  .circledot {
+    width: 15px;
+    height: 15px;
+    background-color: rgb(153, 191, 255);
+    border-radius: 50%;
+    padding: 3.75px;
+    margin: auto;
+  }
+
+  .liconta {
+    width: 80%;
+    margin: 8rem auto 0 auto;
+    color: white;
+    text-align: center;
   }
 
   .appbuild,
@@ -759,14 +780,17 @@ input:focus::placeholder {
     width: 80%;
     margin: 0px auto 100px auto;
     overflow-x: scroll;
+    align-items: left;
+    justify-content: left;
 
   }
 
   .caro1,
   .caro2,
   .caro3 {
-    min-width: 200px;
+    min-width: 250px;
     margin-top: 30px;
+    
   }
 
   footer {
@@ -856,7 +880,7 @@ input:focus::placeholder {
   }
 
   .loadout1, .loadout2, .loadout3a, .loadout3b, .loadout3c, .loadout3d, .loadout3e {
-    border-radius: 5%/40%;
+    border-radius: 5%/60%;
   }
 
   .secondpart {
