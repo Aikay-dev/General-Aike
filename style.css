@@ -794,7 +794,7 @@ input:focus::placeholder {
   }
 
   footer {
-    height: 600px;
+    height: 100%;
     padding: 30px;
   }
 
