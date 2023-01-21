@@ -33,6 +33,11 @@ body {
   white-space: nowrap;
 }
 
+.linkst{
+  text-decoration: none;
+  color: var(--WTXT);
+}
+
 .navoneli {
   margin-left: 10%;
   font-size: 12px;

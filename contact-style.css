@@ -1,0 +1,285 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+:root {
+    /* Colors */
+    --WTXT: #fff;
+    --BACKGRAD: linear-gradient(to left, rgb(136 241 255), rgb(118, 110, 255));
+    --PLACEHSIZE: 17px;
+    --PLACEPAD: 10px
+  }
+
+body{
+    background-color: white;
+}
+
+.backbox{
+    background-image: var(--BACKGRAD);
+    height: 300px;
+    width: 100vw;
+    position: absolute;
+}
+
+.headsend{
+    font-size: 20px;
+}
+
+.contactbox{
+    top: 20%;
+    left: 50%;
+    transform: translateX(-50%);
+    position: absolute;
+    display: flex;
+    box-shadow: 2px 2px 10px;
+    height: 700px;
+    width: 1100px;
+    background-color: var(--WTXT);
+}
+
+.left{
+    background-color: white;
+    padding: 30px;
+    width: 65%;
+}
+
+.right{
+    width: 35%;
+    background-color: black;
+    color: #fff;
+    padding: 30px;
+}
+
+.nameinp{
+    width: 350px;
+    height: 30px;
+    border-top: none;
+    border-bottom: 1px solid black;
+    border-left: none;
+    border-right: none;
+    outline: none;
+    padding-bottom: var(--PLACEPAD);
+    font-size: var(--PLACEHSIZE)
+
+}
+
+.nameinp::placeholder{
+    font-size: var(--PLACEHSIZE);
+}
+
+.mailinp::placeholder{
+    font-size: var(--PLACEHSIZE);
+}
+
+.messinp::placeholder{
+    font-size: var(--PLACEHSIZE);
+}
+
+.phoneinp::placeholder{
+    font-size: var(--PLACEHSIZE);
+}
+
+.companyinp::placeholder{
+    font-size: var(--PLACEHSIZE);
+}
+
+.mailfinp{
+    width: 250px;
+    height: 30px;
+    border-top: none;
+    border-bottom: 1px solid black;
+    border-left: none;
+    border-right: none;
+    outline: none;
+    padding-bottom: var(--PLACEPAD);
+    font-size: var(--PLACEHSIZE)
+}
+
+.phoneinp{
+    width: 350px;
+    height: 30px;
+    border-top: none;
+    border-bottom: 1px solid black;
+    border-left: none;
+    border-right: none;
+    outline: none;
+    padding-bottom: var(--PLACEPAD);
+    font-size: var(--PLACEHSIZE)
+}
+
+.companyinp{
+    width: 250px;
+    height: 30px;
+    border-top: none;
+    border-bottom: 1px solid black;
+    border-left: none;
+    border-right: none;
+    outline: none;
+    padding-bottom: var(--PLACEPAD);
+    font-size: var(--PLACEHSIZE)
+}
+
+.top{
+    display: flex;
+    margin: 80px 0px 100px 0px;
+    gap: 20px;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.bottom{
+    display: flex;
+    margin: 50px 0px 0px 0px;
+    gap: 20px;
+    justify-content: space-between;
+    
+}
+
+.messinp{
+    width: 100%;
+    height: 200px;
+    outline: none;
+    border-top: none;
+    border-bottom: 1px solid black;
+    border-left: none;
+    border-right: none;
+    font-size: var(--PLACEHSIZE);
+}
+
+.but{
+    background-color: rgb(118, 110, 255);
+    border: none;
+    padding: 15px;
+    margin-top: 50px;
+    color: #fff;
+    letter-spacing: 3px;
+    cursor: pointer;
+
+}
+
+.head{
+    margin: 0 0 50px 0;
+    font-size: 20px;
+}
+
+.words{
+    margin: 0 0 50px 0;
+}
+
+.phno{
+    margin-bottom: 30px;
+    display: flex;
+    gap: 15px;  
+}
+
+.mail{
+    margin-bottom: 30px;
+    display: flex;
+    gap: 15px;
+}
+
+.addr{
+    display: flex;
+    gap: 15px; 
+}
+
+
+@media only screen and (max-width: 1200px) {
+    .contactbox{
+        width: 900px;
+    }
+
+    .nameinp{
+        width: 300px;
+    }
+
+    .mailfinp{
+        width: 200px;
+    }
+    
+    .phoneinp{
+        width: 300px;
+    }
+    
+    .companyinp{
+        width: 200px;
+    }
+
+}
+
+@media only screen and (max-width: 1000px){
+    .contactbox{
+        width: 790px;
+    }
+
+    .nameinp{
+        width: 250px;
+    }
+
+    .mailfinp{
+        width: 150px;
+    }
+    
+    .phoneinp{
+        width: 250px;
+    }
+    
+    .companyinp{
+        width: 150px;
+    }
+}
+
+@media screen and (max-width: 830px) {
+    .contactbox{
+        width: 500px;
+        display: flex;
+        flex-direction: column;
+        height: 900px;
+        gap: 60px;
+    }
+
+    .right{
+        width: 100%;
+    }
+
+    .left{
+        width: 100%;
+    }
+
+    .nameinp{
+        width: 100%;
+        margin-bottom: 50px;
+    }
+
+    .mailfinp{
+        width: 100%;
+    }
+    
+    .phoneinp{
+        width: 100%;
+        margin-bottom: 50px;
+    }
+    
+    .companyinp{
+        width: 100%;
+    }
+
+    .top{
+        flex-direction: column;
+    }
+
+    .bottom{
+        flex-direction: column;
+    }
+
+}
+
+@media screen and (max-width: 560px) {
+    .contactbox{
+        width: 90%;
+        gap: 40px;
+    }
+}
