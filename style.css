@@ -30,6 +30,7 @@ body {
 .navoneli,
 .navoneul {
   display: flex;
+  white-space: nowrap;
 }
 
 .navoneli {
