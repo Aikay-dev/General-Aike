@@ -31,6 +31,7 @@ body {
 .navoneul {
   display: flex;
   white-space: nowrap;
+  cursor: pointer;
 }
 
 .linkst{
@@ -713,7 +714,7 @@ input:focus::placeholder {
 
   .secondpart {
     display: block;
-    padding-top: 700px;
+    padding-top: 900px;
   }
 
   .sp-firsthalf {
