@@ -31,10 +31,14 @@ body {
 .navoneul {
   display: flex;
   white-space: nowrap;
+}
+
+.navoneul li:nth-child(2),
+.navoneul li:nth-child(3) {
   cursor: pointer;
 }
 
-.linkst{
+.linkst {
   text-decoration: none;
   color: var(--WTXT);
 }
@@ -135,7 +139,6 @@ body {
   margin-top: 8%;
   display: flex;
 }
-
 
 .fedp {
   margin: 10px 0;
@@ -352,6 +355,10 @@ body {
   padding: 5% 0 0 0;
 }
 
+.ghost {
+  content: "";
+}
+
 .fptext {
   text-align: center;
   width: 50%;
@@ -450,7 +457,6 @@ body {
   justify-content: center;
   gap: 30px;
   margin-bottom: 100px;
-
 }
 
 .caro1 {
@@ -501,7 +507,6 @@ footer {
   padding: 50px 50px;
   justify-content: center;
   gap: 10rem;
-
 }
 
 .footp1 {
@@ -645,7 +650,7 @@ input:focus::placeholder {
     overflow-x: hidden;
   }
 
-  .whoare{
+  .whoare {
     padding: 0 20px 0 20px;
   }
 
@@ -710,8 +715,6 @@ input:focus::placeholder {
     height: 100%;
   }
 
-
-
   .secondpart {
     display: block;
     padding-top: 900px;
@@ -732,7 +735,6 @@ input:focus::placeholder {
   .sp-secondhalf {
     width: 70%;
   }
-
 }
 
 @media only screen and (max-width: 755px) {
@@ -789,7 +791,6 @@ input:focus::placeholder {
     overflow-x: scroll;
     align-items: left;
     justify-content: left;
-
   }
 
   .caro1,
@@ -797,7 +798,6 @@ input:focus::placeholder {
   .caro3 {
     min-width: 250px;
     margin-top: 30px;
-    
   }
 
   footer {
@@ -845,19 +845,17 @@ input:focus::placeholder {
   .fifthpart {
     margin-bottom: 100px;
   }
-
 }
 
 @media only screen and (max-width: 450px) {
-  .navbar-one{
+  .navbar-one {
     padding-left: 5%;
     padding-right: 5%;
   }
-  
+
   .secondpart {
     padding-top: 0px;
   }
-
 
   .fifthpart {
     margin-bottom: 100px;
@@ -886,7 +884,13 @@ input:focus::placeholder {
     margin: auto;
   }
 
-  .loadout1, .loadout2, .loadout3a, .loadout3b, .loadout3c, .loadout3d, .loadout3e {
+  .loadout1,
+  .loadout2,
+  .loadout3a,
+  .loadout3b,
+  .loadout3c,
+  .loadout3d,
+  .loadout3e {
     border-radius: 5%/60%;
   }
 
@@ -924,17 +928,15 @@ input:focus::placeholder {
     width: 80%;
   }
 
-  .futcaro{
+  .futcaro {
     justify-content: left;
-    
   }
 
   .caro1,
   .caro2,
   .caro3 {
- min-width: 250px;
+    min-width: 250px;
   }
-
 
   footer {
     height: 100%;
