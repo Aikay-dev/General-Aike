@@ -208,6 +208,55 @@ body {
   border-radius: 1%/50%;
 }
 
+.blog{
+  background-image: var(--BACKGRAD);
+}
+
+.bloghead{
+  text-align: center;
+  width: 200px;
+  padding: 20px;
+  margin: auto;
+  background-color: rgb(0, 0, 0);
+  border-radius: 20px;
+  color: white;
+}
+
+.remlc{
+  text-decoration: none;
+  color: black;
+}
+.container{
+  width: 700px;
+  margin: 30px auto ;
+  border-radius: 20px;
+  background-color: white;
+  display: flex;
+  height: 200px;
+  overflow: hidden;
+
+}
+
+.container:hover>.bimg{
+  animation: bimgh 0.2s ease-in forwards;
+}
+
+
+
+.bimg{
+  height: 100%;
+  border-top-left-radius: inherit;
+  border-bottom-left-radius: inherit;
+}
+
+.btext{
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  width: 100%;
+}
+
 .loadout3b {
   width: 80%;
   height: 100%;
@@ -641,6 +690,15 @@ input:focus::placeholder {
   }
 }
 
+@keyframes bimgh {
+  from{
+    scale: 1.0;
+  }
+  to{
+    scale: 1.06;
+  }
+}
+
 /* Media section */
 
 @media only screen and (max-width: 1100px) {
@@ -648,6 +706,10 @@ input:focus::placeholder {
   body {
     max-width: 100%;
     overflow-x: hidden;
+  }
+
+  .faker{
+    height: 100px;
   }
 
   .whoare {
@@ -746,6 +808,16 @@ input:focus::placeholder {
   }
   .fourthpart {
     height: 1200px;
+  }
+
+  .container{
+    width: 500px;
+    height: 150px;
+    overflow: hidden;
+  }
+
+  .bimg{
+    width: 150px;
   }
 
   .circledot {
@@ -847,10 +919,33 @@ input:focus::placeholder {
   }
 }
 
+@media only screen and (max-width: 520px) {
+  .container{
+    width: 400px;
+  }
+
+  .btopic{
+    font-size: 15px;
+  }
+}
+
 @media only screen and (max-width: 450px) {
   .navbar-one {
     padding-left: 5%;
     padding-right: 5%;
+  }
+
+  .container{
+    width: 300px;
+  }
+
+  .bmtext{
+    display: none;
+  }
+
+  .btext{
+    display: flex;
+    justify-content: center;
   }
 
   .secondpart {
@@ -959,5 +1054,17 @@ input:focus::placeholder {
 
   .lithree {
     margin-top: 50px;
+  }
+}
+
+
+@media only screen and (max-width: 330px) {
+  .container{
+    width: 95%;
+    height: 100px;
+  }
+
+  .bimg{
+    width: 40%;
   }
 }
